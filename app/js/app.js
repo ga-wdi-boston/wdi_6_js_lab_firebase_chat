@@ -2,7 +2,6 @@
 
 
 
-// var myDataRef = new Firebase('https://mr7z2pdeabv.firebaseio-demo.com/');
 var myDataRef = new Firebase("https://annie-chat.firebaseio.com/");
 $('#messageInput').keypress(function (e) {
   if (e.keyCode == 13) {
