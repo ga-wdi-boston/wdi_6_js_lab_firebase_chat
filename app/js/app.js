@@ -24,8 +24,8 @@ $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
 
   function manySquares(){
       var max = 1000;
-    for (var i = 0 ; i< max ; i++) {
-    $('.shapes').append('<div class="square"></div>');
+    for (var i = 0; i < max; i++) {
+    $('.shapes').append('.square');
   }
 }
 
