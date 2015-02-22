@@ -21,4 +21,18 @@ $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messages
 $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
    }
   }
+
+  function manySquares(){
+      var max = 1000;
+    for (var i = 0 ; i< max ; i++) {
+    $('.shapes').append('<div class="square"></div>');
+  }
+}
+
+  function randomColor() {
+    return '#' + Math.random().toString(16).slice(2, 8);
+  };
+  $(".square").on("mouseover", function(){
+    $(this).css('background-color',randomColor());
+    });
 });
