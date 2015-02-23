@@ -13,3 +13,33 @@ div.form-group {
   background: #ddd;
 }
 
+.header {
+  color: #3B3540;
+  text-align: center;
+  width: 100%;
+}
+div#container {
+  // width: 500px;
+  // height: 500px;
+  overflow: scroll;
+}
+body {
+  background-color: #CA89FF;
+  font-family: Helvetica;
+}
+.messagesblock{
+  background: #FFFFFF;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+.inputform {
+  text-align: center;
+  width: 500px;
+  background: #FFFFFF;
+}
+input#nameInput {
+  font-weight: bold;
+}
