@@ -18,11 +18,18 @@ footer input {
   font-size: 20px;
   margin-left: 20px;
 }
-.side {
+
+.left {
+  float: left;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.right {
   float: right;
   width: 20%;
   min-height: 200px;
-  margin-left: 20px;
+  margin-right: 20px;
   font-size: 20px;
 }
 
