@@ -1,4 +1,4 @@
-alert('12341234');
+alert('_____-------_______-----_--_-_-');
 
 var messagesRef = new Firebase('https://wdi6firechat.firebaseio.com/');
 
