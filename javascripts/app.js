@@ -1,6 +1,5 @@
-alert('aszxc');
-
-var myDataRef = new Firebase('https://wdi6firechat.firebaseio.com/');
+alert('y');
+      var myDataRef = new Firebase('https://yjlmp2gr37s.firebaseio-demo.com/');
       $('#messageInput').keypress(function (e) {
         if (e.keyCode == 13) {
           var name = $('#nameInput').val();
