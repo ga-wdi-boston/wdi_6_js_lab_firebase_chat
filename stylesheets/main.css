@@ -1,0 +1,40 @@
+.wrapper h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 5px;
+}
+
+.wrapper div {
+  margin-left: 10px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+footer input {
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.left {
+  float: left;
+  width: 20%;
+  margin-left: 20px;
+}
+
+.right {
+  float: right;
+  width: 20%;
+  min-height: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+#messagesDiv {
+  font-size: 18px;
+  margin-top: 10px;
+}
