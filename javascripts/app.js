@@ -1,4 +1,4 @@
-alert('as');
+alert('aszxc');
 
 var myDataRef = new Firebase('https://wdi6firechat.firebaseio.com/');
       $('#messageInput').keypress(function (e) {
