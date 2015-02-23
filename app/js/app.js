@@ -16,3 +16,8 @@ var chatRef = new Firebase("https://messagey.firebaseio.com/");
         $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
+
+window.setInterval(function() {
+  var elem = document.getElementById('messagesDiv');
+  elem.scrollTop = elem.scrollHeight;
+}, 5000);
