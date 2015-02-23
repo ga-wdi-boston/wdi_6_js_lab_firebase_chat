@@ -1,5 +1,6 @@
-h1 {
+.wrapper h1 {
   font-size: 40px;
+  text-align: center;
 }
 
 .wrapper {
@@ -35,4 +36,5 @@ footer input {
 
 #messagesDiv {
   font-size: 18px;
+  margin-top: 10px;
 }

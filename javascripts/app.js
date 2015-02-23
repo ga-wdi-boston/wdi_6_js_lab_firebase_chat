@@ -1,10 +1,14 @@
 var myDataRef = new Firebase('https://wdi6firechat.firebaseio.com/');
-var name = prompt("Your name?", "Guest");
+var name;
 var currentStatus = "online";
 var userListRef = new Firebase("https://wdi6present.firebaseio.com//");
 var myUserRef = userListRef.push();
 var connectedRef = new Firebase("https://wdi6present.firebaseio.com//.info/connected");
 
+$(window).load(function(){
+  name = prompt("Your name?", "Guest");
+  $("#me").text(name).appendTo("#me");
+});
 
 $('#messageInput').keypress(function (e) {
   if (e.keyCode == 13) {
@@ -54,9 +58,6 @@ userListRef.on("child_added", function(snapshot) {
     .attr("id", getMessageId(snapshot))
     .text(user.name + " is currently " + user.status)
     .appendTo("#presenceDiv");
-  $("#me")
-    .text(user.name)
-    .appendTo("#me");
 });
 
 userListRef.on("child_removed", function(snapshot) {
