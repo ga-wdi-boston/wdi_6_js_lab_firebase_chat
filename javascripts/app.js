@@ -1,4 +1,4 @@
-alert(';;;;;;;;;;;;;;');
+alert('as');
 
 var myDataRef = new Firebase('https://wdi6firechat.firebaseio.com/');
       $('#messageInput').keypress(function (e) {
