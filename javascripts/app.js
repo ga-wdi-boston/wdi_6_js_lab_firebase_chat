@@ -1,3 +1,7 @@
+alert('HIHIHHI');
+
+
+
 var myDataRef = new Firebase('https://wdi6firechat.firebaseio.com/');
 var name = prompt("Your name?", "Guest");
 var currentStatus = "online";
