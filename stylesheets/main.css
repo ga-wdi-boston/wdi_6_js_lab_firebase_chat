@@ -1,0 +1,27 @@
+h1 {
+  font-size: 40px;
+}
+
+.wrapper {
+  padding: 5px;
+}
+
+.wrapper div {
+  margin-left: 10px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+footer input {
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.side {
+  float: left;
+  width: 20%;
+  min-height: 200px;
+  margin-left: 20px;
+  font-size: 20px;
+}
