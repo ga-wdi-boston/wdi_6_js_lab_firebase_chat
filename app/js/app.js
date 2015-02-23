@@ -6,14 +6,14 @@ var Firebase = require("firebase");
 
 var DataRef = new firebase('https://sizzling-fire-8233.firebaseio.com/');
 
-var name = $('#nameinput').val();
-    var text = $('#textinput').val();
+var name = $('nameinput').val();
+    var text = $('textinput').val();
 
 $('msginput').keypress(function(e) {
 
 
     DataRef.push({name: name, text: text});
-    $('#msginput').val('');
+    $('msginput').val('');
   }
 });
 
